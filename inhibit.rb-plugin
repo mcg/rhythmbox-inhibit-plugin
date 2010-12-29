@@ -1,0 +1,11 @@
+[RB Plugin]
+Loader=python
+Module=inhibit
+IAge=1
+Name=Inhibit Screensaver
+Name[en_GB]=Inhibit Screensaver
+Description=Disables screensaver while music is playing.
+Description[en_GB]=Disables screensaver while music is playing.
+Authors=Matthew Gregg(mcg@braintube.com)
+Copyright=Copyright © 2010 Matthew Gregg
+Website=http://github.com/mcg
