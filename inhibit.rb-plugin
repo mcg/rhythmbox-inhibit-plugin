@@ -8,4 +8,4 @@ Description=Disables screensaver while music is playing.
 Description[en_GB]=Disables screensaver while music is playing.
 Authors=Matthew Gregg(mcg@braintube.com)
 Copyright=Copyright © 2010 Matthew Gregg
-Website=http://github.com/mcg
+Website=https://github.com/mcg/rhythmbox-inhibit-plugin
