@@ -54,7 +54,6 @@ class InhibitPlugin (rb.Plugin):
         def uninhibit_screensaver(self):
                 try:
                         if hasattr(self, 'cookie'):
-                                print str(self.cookie)
                                 print "Uninhibiting screensaver"
                                 self.screensaver.UnInhibit(self.cookie)
                         return True
@@ -63,7 +62,6 @@ class InhibitPlugin (rb.Plugin):
 
         def play_state_changed(self, rb, playing):
                 """ inhibit screensaver on play, uninhibit on pause """
-                print "play state: "+str(playing)
                 if playing:
                         if hasattr(self, 'cookie'):
                                 if self.cookie != None:
