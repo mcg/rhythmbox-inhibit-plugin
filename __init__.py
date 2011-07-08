@@ -15,14 +15,15 @@
 # Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301  USA.
 
 import rb
+from gi.repository import RB
 import gobject
 import dbus
 import logging
 
-class InhibitPlugin (rb.Plugin):
+class InhibitPlugin (RB.Plugin):
 #Initialisation 
 	def __init__ (self):
-		rb.Plugin.__init__ (self)
+		RB.Plugin.__init__ (self)
         def bind_session_bus(self):
                 try:
                         self.session_bus = dbus.SessionBus()
